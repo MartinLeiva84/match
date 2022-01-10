@@ -1,0 +1,33 @@
+h1 { font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:crimson;
+}
+
+span {
+    font-size: 50px;
+}
+.Cronometro {
+    background-color: rgb(3, 3, 3);
+    color: whitesmoke;
+    display: flex;
+    width: 20%;
+}
+#timewatch{
+    display: inline;
+    margin: 25px;
+}
+.Button {
+    display:grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* display: block; */
+    margin: 10px;
+}
+#play{
+    display: inline-flex;
+
+}
+#pause{
+    display: inline-flex;
+}
+#reset{
+    display: inline-flex;
+}
